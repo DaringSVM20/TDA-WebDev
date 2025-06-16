@@ -23,12 +23,6 @@ body {
     display: inline-block;
 }
 
-.card-link:hover .card {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    transform: scale(1.05);
-    transition: 0.2s ease;
-}
-
 .card-content {
     display: flex;
     align-items: center;
@@ -36,17 +30,25 @@ body {
 
 .card {
     margin: 20px;
-    background: white;
     padding: 10px;
-    background-color: hsl(0, 0%, 96%);
     max-height: 300px;
     width: 400px;
+    background-color: hsl(0, 0%, 96%);
     border-radius: 8px;
     box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
     text-align: justify;
     transform: scale(1);
-    transition: 0.2s ease;
+    /* transition: 0.2s ease; */
+    overflow: hidden;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-link:hover .card {
+    background-color: hsl(204, 64%, 87%);   
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+    /* transform: scale(1.05);
+    transition: 0.2s ease; */
 }
 
 .card-text {
