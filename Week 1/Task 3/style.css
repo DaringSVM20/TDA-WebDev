@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsla(193, 80%, 92%, 0.78);
+    /* color: gray; */
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: hsla(160, 46%, 95%, 0.965);
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 4px 15px hsl(0, 0%, 0%);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: hsl(0, 0%, 22%);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: hsl(209, 71%, 46%);
+    padding: 5px;
+    border-bottom: 2px solid rgb(183, 221, 255);
+    display: inline-block;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.projects ul {
+    list-style-type: square;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid rgb(168, 168, 168);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: hsl(193, 64%, 77%);
+}
+
+td {
+    background-color: hsl(200, 100%, 96%);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 22%);
+    margin-top: 30px;
+}
